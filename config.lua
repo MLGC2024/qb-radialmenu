@@ -295,6 +295,15 @@ Config.MenuItems = {
             }
         }
     },
+
+    [3] =  {
+        id = 'bed:up',
+        title = 'Stand Up',
+        icon = 'hand-point-up',
+        type = 'client',
+        event = 'bed:up',
+        shouldClose = true
+       },
 }
 
 Config.VehicleDoors = {
